@@ -1,0 +1,4 @@
+{
+  "extends": "./packages/configs/tsconfig/tsconfig.base.json",
+  "include": [".", "eslint.config.mjs"]
+}

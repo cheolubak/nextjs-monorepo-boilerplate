@@ -1,0 +1,27 @@
+{
+  "name": "nextjs-monorepo-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "tsc": "tsc -p tsconfig.json",
+    "lint-fix": "eslint --fix .",
+    "update-dependencies": "pnpm dlx npm-check-updates -u"
+  },
+  "dependencies": {
+    "react": "catalog:",
+    "react-dom": "catalog:",
+    "next": "catalog:"
+  },
+  "devDependencies": {
+    "typescript": "catalog:",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "@tailwindcss/postcss": "catalog:",
+    "tailwindcss": "catalog:"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "@ui/components",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "tsc": "tsc -p tsconfig.json",
+    "lint-fix": "eslint --fix ",
+    "update-dependencies": "pnpm dlx npm-check-updates -u"
+  },
+  "dependencies": {
+    "react": "catalog:",
+    "react-dom": "catalog:"
+  },
+  "devDependencies": {
+    "@/config-storybook": "workspace:*",
+    "@storybook/addon-actions": "catalog:",
+    "@storybook/addon-essentials": "catalog:",
+    "@storybook/addon-interactions": "catalog:",
+    "@storybook/addon-links": "catalog:",
+    "@storybook/addon-onboarding": "catalog:",
+    "@storybook/addon-viewport": "catalog:",
+    "@storybook/addons": "catalog:",
+    "@storybook/nextjs": "catalog:",
+    "@storybook/react": "catalog:",
+    "@storybook/theming": "catalog:",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "storybook": "catalog:",
+    "typescript": "catalog:"
+  }
+}
